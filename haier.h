@@ -15,7 +15,7 @@ using namespace esphome::climate;
 
 
 #define TEMPERATURE			13
-#define HUMIDITY            15
+#define HUMIDITY            		15
 
 #define COMMAND				17
 
@@ -24,7 +24,7 @@ using namespace esphome::climate;
 #define MODE_AUTO			00
 #define MODE_COOL			01
 #define MODE_HEAT			02
-#define MODE_ONLY_FAN		03
+#define MODE_ONLY_FAN			03
 #define MODE_DRY			04
 
 #define FAN_SPEED			25
@@ -36,8 +36,8 @@ using namespace esphome::climate;
 
 #define SWING				27
 #define SWING_OFF			00
-#define SWING_VERTICAL		01
-//#define SWING_HORIZONTAL	02
+#define SWING_VERTICAL			01
+//#define SWING_HORIZONTAL		02
 //#define SWING_BOTH			03
 
 #define LOCK				28
@@ -52,9 +52,9 @@ using namespace esphome::climate;
 //                             POWER_ON + HEALTH_ON 29-9 режиме fun_only
 //                             POWER_ON + HEALTH_OFF + ? 29-17
 //                             POWER_ON + ? + ? 29-25
-#define POWER					29 // HEALTH_MODE_ON + 8, POWER_MODE_ON + 1, ?_MODE_ON + 16
-#define POWER_OFF				8
-#define POWER_ON				9
+#define POWER				29 // HEALTH_MODE_ON + 8, POWER_MODE_ON + 1, ?_MODE_ON + 16
+#define POWER_OFF			8
+#define POWER_ON			9
 //#define POWER_OFF_HEALTH_ON		8
 //#define POWER_ON_HEALTH_ON		9
 //#define POWER_OFF_HEALTH_ON_2	24
@@ -63,12 +63,12 @@ using namespace esphome::climate;
 #define FRESH				31 // 31-8 swing up, 31-16 swing down, 31-2 Turbo, 31-4 Quiet
 #define FRESH_ON			01
 #define FRESH_OFF			00
-#define SWING_VERTICAL_UP	8
-#define SWING_VERTICAL_DOWN	16
+#define SWING_VERTICAL_UP		8
+#define SWING_VERTICAL_DOWN		16
 
-#define SET_TEMPERATURE		35
+#define SET_TEMPERATURE			35
 
-#define CRC					36
+#define CRC				36
 
 class Haier : public Climate, public PollingComponent {
 
