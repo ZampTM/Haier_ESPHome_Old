@@ -1,1 +1,1 @@
-# Haier_ESPHome_Old
+Управление кондиционером Haier протоколом SmartAir2 
